@@ -419,13 +419,14 @@
 }
 
 .courses-pricing h2 {
-  color: var(--secondary-main-color);
+  color: var(--primary-main-color);
   margin-bottom: 1rem;
   font-size: 2rem;
   /* text-transform: uppercase; */
 }
 
 .courses-pricing h3 {
+  /* color: var(--primary-gradient-color); */
   color: var(--primary-main-color);
   margin-bottom: 2rem;
   font-size: 1.6rem;
@@ -450,4 +451,34 @@
 .courses-pricing a {
   margin-top: 1.5rem;
   min-width: 100%;
+}
+
+.courses-pricing .features .icon-btn {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+}
+
+.courses-pricing #end-col {
+  background-color: var(--primary-gradient-color);
+}
+
+.courses-pricing #end-col h2,
+.courses-pricing #end-col h3,
+.courses-pricing #end-col ul {
+  color: white;
+}
+
+.courses-pricing #end-col .icon-btn {
+  color: var(--primary-gradient-color);
+  background: white;
+  border: 2px solid white;
+}
+
+.courses-pricing #end-col .icon-btn:hover {
+  background: transparent;
+  color: white;
+}
+
+.courses-pricing #end-col .icon-btn:active::before {
+  content: "\f068";
 }
